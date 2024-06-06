@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+
+  <header>
+    <h1><abbr title="Computer Science/Information Technology Community">CS/IT Community</abbr></h1>
+    <nav>        
+        <a href="About Us/index.html">About Us</a>
+        <a href="#contact">Contact Us</a>   
+        <a href="join.html">Join Us</a> 
+    </nav>
+</header>
+<main>
+        
+        <br>
+
+        <section id="slide-show">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1521185496955-15097b20c5fe" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1505238680356-667803448bb6" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://plus.unsplash.com/premium_photo-1683140655656-20448abc55da" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1550439062-609e1531270e" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1561883088-039e53143d73" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1605379399843-5870eea9b74e" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1592609931095-54a2168ae893" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974" alt="">
+            </div>
+            </div>
+            <div class="swiper-button-next" style="color:white"></div>
+            <div class="swiper-button-prev" style="color:white"></div>
+            <div class="swiper-pagination" style="--swiper-pagination-color: white;"></div>
+        </div>
+      </section>
+
+        <br>
+
+        <section title="tiles" id="tiles">
+            <div class="card">
+              <a href="GAME_ZONE/index.html"><img src="img/GAMEZONE.gif" alt="GAMEZONE"></a>
+            </div>
+              
+            <div class="card">
+                <a href="project-page-main/index.html"><img src="img/projects.gif" alt="PROJECTS"></a>
+            </div>
+              
+            <div class="card">
+              <a href="Query.html"><img src="img/query.gif" alt="QUERY"></a>
+            </div>
+        </section>
+    </main>
+
+    <br>
+
+    <footer>
+      <div id="contact" class="free">
+          <a class="" href="https://www.instagram.com/csitgroup?igsh=MWp4eWZ2NDFpbnA5ZA==">
+              <img src="img/icons8-instagram-50 (1).png"></a>
+          <a class="" href="mailto:csitdehradun@gmail.com">
+              <img src="img/icons8-gmail-50.png"></a>
+          <a class="" href="https://wa.me/917037254229">
+            <img src="img/icons8-whatsapp-50 (2).png" alt="">
+          </a>
+          <a class="" href="tel:+917037254229">
+            <img src="img/icons8-call-50.png" alt="">    
+          </a>
+        </div>
+    </footer>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3200,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</html>
+
+             

@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#282828;
+    color: white;
+}
+.heading p{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 25px;
+}
+.pages ul{
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right: 8px;
+    padding: 20px;
+}
+li:hover{
+    border: 2px white solid;
+    border-radius: 10px;
+}
+.backdrop{
+    background-image: url("info.jpeg");
+    opacity: .75;
+    width: 1200px;
+    height: 540px;
+    background-size: cover;
+    margin-left: 75px;
+    border-radius: 15px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.backdrop h1{
+    font-size: 2.75rem;
+    font-weight: 550;
+    margin-bottom: 20px;
+}
+.backdrop a{
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: black;
+}
+
+.define{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 75px;
+}
+.img img{
+    height: 450px;
+    border-radius: 10px;
+}
+.info{
+    text-align: justify;
+    margin-left: 30px;
+    padding: 30px;
+}
+.info h1{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.join{
+    background-color: black;
+    margin: 15px 0px;
+    width: 50px;
+    padding: 20px;
+}
+.join a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.offer h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.perks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.text{
+    width: 350px;
+    height: 210px;
+    margin: 40px;
+    background-color: black;
+    border-radius: 10px;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+}
+.perks img{
+    margin: 10px;
+    width: 50px;
+}
+.perks p{
+    margin: 10px;
+}
+
+footer{
+  
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+footer a{
+    padding: 20px;
+}
