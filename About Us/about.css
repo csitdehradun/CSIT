@@ -23,7 +23,7 @@ body{
     align-items: center;
 }
 li{
-    list-style: none;
+    list-style-type: none;
     margin-right: 8px;
     padding: 20px;
 }
