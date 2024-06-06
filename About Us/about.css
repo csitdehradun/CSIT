@@ -26,11 +26,13 @@ li{
     list-style-type: none;
     margin-right: 8px;
     padding: 20px;
-    text-decoration: none;
 }
 li:hover{
     border: 2px white solid;
     border-radius: 10px;
+}
+li a{
+    text-decoration: none;
 }
 .backdrop{
     background-image: url("info.jpeg");
